@@ -19,7 +19,7 @@
 color: coral;
         }
         table.b1 {
-border: 2px solid salmon;
+border: 10px solid lightseagreen;
 border-radius: 8px;
         }
         p {
@@ -31,20 +31,44 @@ border-radius: 8px;
             font-weight: 500 ;
             font-size: large;
         }
+        body {
+            max-width: auto;
+            align-content: center;
+            justify-content: align;
+        }
         ol.hide {
             visibility: hidden;
         }
         td {
-            border-style: solid;
+            border: solid;
+            border-style: 2px solid;
             border-color: seagreen;
         }
-        tr:nth-child(5n+1){
+        /* tr:nth-child(5n+1){
             border: dotted;
-            border-color: 1px red;
+            margin: 35px;
+            border-color: 2px red;
+        } */
+
+        /* tr {
+            border: dotted;
+            border-style: 2px dotted;
+            border-color: red;
+        } */
+        footer{
+            background-color:lightgrey;
+            text-align: center
+            
         }
         #container{
             
         }
+
+        /* div.row1 {
+            width: 250px;
+            height: 100px;
+            margin: 10;
+        } */
 
         
 
@@ -53,7 +77,6 @@ border-radius: 8px;
 </head>
 <div id = "container" class="container">
 <body class="font">
-    
     <h1 id="heading">Guitar Shop</h1>
     <h1>Instruments</h1>
     <br>
@@ -63,34 +86,36 @@ border-radius: 8px;
         <li>Electric Guitars</li>
         <li>Bass Guitars</li>
     </ol>
-<br>
-<table class="b1">
-    <tr>
+<table class="b1" border="1">
+    <tr style="border: 2px Dotted red">
         <th>Guitar 01</th>
         <th>Guitar 02</th>
         <th>Guitar 03</th>
         <th>Guitar 04</th>
         <th>Guitar 05</th>
     </tr>
-    <tr>
-        <td colspan="2" name = "merge"></td>
-        <td name = "merge"><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1a1_w?node=11971381&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241">Link1<img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_1_cg_440x330_jpg.jpg" alt=""></a></td>
+
+    <tr style="border: 2px Dotted red">
+        <td rowspan="" name = "merge"></td>
+        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1a1_w?node=11971381&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241"><img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_1_cg_440x330_jpg.jpg" alt="">Link1</a></td>
         <td></td>
-        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1d1_w?node=11971311&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241">Link2<img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_4_cg_440x330_jpg.jpg" alt=""></a></td>
         <td></td>
+        <td colspan="2"></td>
+        
     </tr>
-    <tr>
+    <tr style="border: 2px Dotted red">
         <td></td>
-        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1b1_w?node=11971251&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241">Link3<img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_2_cg_440x330_jpg.jpg" alt=""></a></td>
+        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1d1_w?node=11971311&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241"><img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_4_cg_440x330_jpg.jpg" alt="">Link2</a></td>
         <td></td>
-        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1c1_w?node=11971281&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241">Link4<img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_3_cg_440x330_jpg.jpg" alt=""></a></td>
         <td></td>
+        <td colspan="2"></td>
     </tr>
-    <tr><td></td>
-        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1b1_w?node=14733114011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-5&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=f14951dc-9b21-4412-9ff5-69e0f442a196&pf_rd_i=11971241">Link5<img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_750x375_Musical_Instruments_1120460_us_mi_stf_3_cg_750x375_jpg.jpg" alt=""></a></td>
+    <tr style="border: 2px Dotted red">
         <td></td>
-        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1c1_w?node=8882494011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-5&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=f14951dc-9b21-4412-9ff5-69e0f442a196&pf_rd_i=11971241">Link6<img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_750x375_Musical_Instruments_1120460_us_mi_stf_4_cg_750x375_jpg.jpg"></a></td>
+        <td><a href="https://www.amazon.com/b/ref=s9_acss_bw_cg_CATGLP_1b1_w?node=11971251&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=MPPTJGK4SZ37ZX53J0R6&pf_rd_t=101&pf_rd_p=6bf88f14-2d71-4344-95e8-155b19aa36e0&pf_rd_i=11971241"><img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Musical_Instruments/XCM_Manual_1120460_guitars_Storefront_440x330_Musical_Instruments_1120460_us_mi_stf_2_cg_440x330_jpg.jpg" alt="">Link3</a></td>
         <td></td>
+        <td></td>
+        <td colspan="2"></td>
     </tr>
 </table>
 <hr>
